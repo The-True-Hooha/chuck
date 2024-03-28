@@ -34,10 +34,20 @@ body {
 
 @font-face {
   font-family: "silkscreen";
-  src: url("/assets/fonts/Silkscreen-Regular.ttf");
+  src: url("/assets/font/Silkscreen-Regular.ttf");
 }
 
 @font-face {
-  font-family: "windows_command_prompt";
-  src: url("/assets/fonts/windows_command_prompt.ttf");
+  font-family: "command";
+  src: url("/assets/font/windows_command_prompt.ttf");
+}
+
+@font-face {
+  font-family: "upheavtt";
+  src: url("/assets/font/upheavtt.ttf");
+}
+
+@font-face {
+  font-family: "pixelifySans";
+  src: url("/assets/font/PixelifySans.ttf");
 }

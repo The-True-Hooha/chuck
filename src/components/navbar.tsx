@@ -21,15 +21,15 @@ export default function Navbar() {
             <Image
               src={"/assets/logo/logo-v2.png"}
               alt="logo"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               loading="lazy"
               // className="mr-[400px]"
             />
             {/* <img className="h-10 w-10 mr-2" src={logo} alt="Logo" /> */}
-            <span className="text-xl lg:text-[40px] tracking-tight font-silkscreen">
+            {/* <span className="text-xl lg:text-[40px] tracking-tight font-silkscreen">
               $Chuck
-            </span>
+            </span> */}
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -62,20 +62,20 @@ export default function Navbar() {
                 ))}
             </ul> */}
 
-            <div className="flex flex-col items-center space-y-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
+            <div className="flex font-pixelifySans flex-col items-center space-y-6">
+              <a href="#" className="py-2 px-3 rounded-md">
                 Roadmap
               </a>
-              <a href="#" className="py-2 px-3 border rounded-md">
+              <a href="#" className="py-2 px-3 rounded-md">
                 HowTo
               </a>
-              <a href="#" className="py-2 px-3 border rounded-md">
-                NFTs
+              <a href="#" className="py-2 px-3 rounded-md">
+                Whitepaper
               </a>
-              <a href="#" className="py-2 px-3 border rounded-md">
+              <a href="#" className="py-2 px-3 rounded-md">
                 DAO
               </a>
-              <div className="flex justify-center mx-auto">
+              <div className="flex justify-center mx-auto space-x-4">
                 <RiTwitterXLine className="text-[40px]"/>
                 <FaMedium className="text-[40px]"/>
                 <FaTelegram className="text-[40px]"/>

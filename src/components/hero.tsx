@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 import { BackgroundGradient } from "@/lib/bg-gradient";
@@ -70,28 +70,18 @@ import { BackgroundGradient } from "@/lib/bg-gradient";
 //   );
 // }
 
-
 import React from "react";
 import { WavyBackground } from "@/lib/waves";
 import { TypewriterEffectSmooth } from "@/lib/typewriter";
+import { Button } from "@/lib/moving-borders";
+import { CardItem, CardBody, CardContainer, } from "@/lib/3d-card";
+import Link from "next/link";
 
 export function HeroSection() {
   const words = [
     {
-      text: "Build",
-    },
-    {
-      text: "awesome",
-    },
-    {
-      text: "apps",
-    },
-    {
-      text: "with",
-    },
-    {
-      text: "Aceternity.",
-      className: "text-blue-500 dark:text-blue-500",
+      text: "Welcome to the exciting world of $Chuck",
+      className: "text-blue-700 dark:text-blue-500",
     },
   ];
   return (
@@ -100,12 +90,45 @@ export function HeroSection() {
       className="max-w-4xl mt-[40px] mx-auto pb-40 flex items-center justify-center"
     >
       <div className="relative w-full">
-        <p className="font-silkscreen text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
+        <p className="font-upheavtt text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
           $Chuck: Unleashing Joy and Advocacy in the Web3 World
         </p>
       </div>
-
-     
+      <div className="mt-[170px] lg:mt-[350px] absolute text-[17px] w-[30px] flex items-center justify-center">
+        <TypewriterEffectSmooth
+          className="font-pixelifySans lg:text-[40px] "
+          words={words}
+        />
+      </div>
+      <CardContainer className="inter-var absolute lg:mt-[700px] mt-[550px]  mr-[420px] lg:mr-[800px] flex justify-center">
+        <CardBody
+          className="absolute group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
+         dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[20rem] lg:w-[60rem] h-auto rounded-xl
+          p-6 border flex items-center lg:space-x-4 space-x-2"
+        >
+          <CardItem
+            translateZ="100"
+            className="w-full flex-grow hidden md:block"
+          >
+            <Image
+              src="/assets/images/wall_art.jpg"
+              height="1000"
+              width="1000"
+              className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+              alt="thumbnail"
+            />
+          </CardItem>
+          <CardItem translateZ="100" className="w-full flex-grow">
+            <Image
+              src="/assets/images/wall_art.jpg"
+              height="1000"
+              width="1000"
+              className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+              alt="thumbnail"
+            />
+          </CardItem>
+        </CardBody>
+      </CardContainer>
     </WavyBackground>
   );
 }
