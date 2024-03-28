@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: "silkscreen";
+  src: url("/assets/fonts/Silkscreen-Regular.ttf");
+}
+
+@font-face {
+  font-family: "windows_command_prompt";
+  src: url("/assets/fonts/windows_command_prompt.ttf");
+}
