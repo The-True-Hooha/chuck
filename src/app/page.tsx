@@ -1,24 +1,24 @@
 import { HeroSection } from "@/components/hero";
-import HowTo from "@/components/how-to";
-import MiddleSection from "@/components/middle";
 import Navbar from "@/components/navbar";
-import { TracingBeam } from "@/lib/tracing-beam";
-import { Intro } from "@/components/intro";
-import Image from "next/image";
-import { Roadmap } from "@/components/roadmap";
+import Footer from "@/components/footer";
+import { MiddleSection } from "@/components/middle";
+import { ImageSection } from "@/components/section";
+import { IMiddle } from "@/components/middle-2";
+import { TextSection } from "@/components/text";
 
 
 export default function Home() {
   return (
     <>
-      {/* <TracingBeam> */}
       <Navbar />
-      {/* <div className="max-w-7xl mx-auto pt-20 px-6"> */}
+      {/* <main className="flex-col flex min-h-screen"> */}
       <HeroSection />
-      {/* </div> */}
-      {/* <Intro/> */}
-      {/* <HowTo /> */}
-      {/* <Roadmap /> */}
+      <MiddleSection/>
+      <ImageSection />
+      <IMiddle />
+      <TextSection/>
+        <Footer />
+      {/* </main> */}
     </>
   );
 }

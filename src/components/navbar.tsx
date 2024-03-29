@@ -14,7 +14,7 @@ export default function Navbar() {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
-    <nav className="sticky bg-[#0070F0] top-0 z-50 py-3 backdrop-blur-lg ">
+    <nav className="fixed left-0 right-0 bg-[#0070F0] top-0 z-50 py-3 backdrop-blur-lg ">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">

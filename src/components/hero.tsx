@@ -87,23 +87,24 @@ export function HeroSection() {
   return (
     <WavyBackground
       backgroundFill="#5BA7FF"
-      className="max-w-4xl mt-[40px] mx-auto pb-40 flex items-center justify-center"
+      className="max-w-4xl mx-auto h-full "
     >
-      <div className="relative w-full">
+      <div className="w-full mt-[120px]">
         <p className="font-upheavtt text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
           $Chuck: Unleashing Joy and Advocacy in the Web3 World
         </p>
-      </div>
-      <div className="mt-[170px] lg:mt-[350px] absolute text-[17px] w-[30px] flex items-center justify-center">
+        <div className="text-center mx-auto text-[17px] w-[30px] flex items-center justify-center">
         <TypewriterEffectSmooth
           className="font-pixelifySans lg:text-[40px] "
           words={words}
         />
       </div>
-      <CardContainer className="inter-var absolute lg:mt-[700px] mt-[550px]  mr-[420px] lg:mr-[800px] flex justify-center">
+      </div>
+      
+      <CardContainer className="inter-var mt-[175px] mb-[170px] mr-[30px] lg:mr-[20px]">
         <CardBody
           className="absolute group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
-         dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[20rem] lg:w-[60rem] h-auto rounded-xl
+          dark:border-white/[0.2] w-[20rem] lg:w-[60rem] h-auto rounded-xl
           p-6 border flex items-center lg:space-x-4 space-x-2"
         >
           <CardItem
