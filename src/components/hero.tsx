@@ -74,7 +74,7 @@ import React from "react";
 import { WavyBackground } from "@/lib/waves";
 import { TypewriterEffectSmooth } from "@/lib/typewriter";
 import { Button } from "@/lib/moving-borders";
-import { CardItem, CardBody, CardContainer, } from "@/lib/3d-card";
+import { CardItem, CardBody, CardContainer } from "@/lib/3d-card";
 import Link from "next/link";
 
 export function HeroSection() {
@@ -87,21 +87,21 @@ export function HeroSection() {
   return (
     <WavyBackground
       backgroundFill="#5BA7FF"
-      className="max-w-4xl mx-auto h-full "
+      className="max-w-4xl  mx-auto h-full flex flex-col gap-20 px-2"
     >
-      <div className="w-full mt-[120px]">
+      <div className="w-full mt-[150px] md:mt-[120px]  mx-auto">
         <p className="font-upheavtt text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
           $Chuck: Unleashing Joy and Advocacy in the Web3 World
         </p>
         <div className="text-center mx-auto text-[17px] w-[30px] flex items-center justify-center">
-        <TypewriterEffectSmooth
-          className="font-pixelifySans lg:text-[40px] "
-          words={words}
-        />
+          <TypewriterEffectSmooth
+            className="font-pixelifySans lg:text-[40px] "
+            words={words}
+          />
+        </div>
       </div>
-      </div>
-      
-      <CardContainer className="inter-var mt-[175px] mb-[170px] mr-[30px] lg:mr-[20px]">
+
+      <CardContainer className="inter-var mt-[175px] mb-[170px] mr-[30px] lg:mr-[20px] ">
         <CardBody
           className="absolute group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
           dark:border-white/[0.2] w-[20rem] lg:w-[60rem] h-auto rounded-xl

@@ -37,21 +37,20 @@ function TextWrapper({ children }: Props) {
   );
 }
 
-
 export function TextSection() {
-    return (
-      <div className="text-[5rem] text-center bg-[#5BA7FF] font-upheavtt flex flex-col justify-center gap-12">
-        <TextWrapper>Why $Chuck token?</TextWrapper>
-        <TextWrapper>
-          $Chuck was born out of a deep admiration for the iconic Chuck Norris
-          memes, but it stands for so much more than just internet meme. This
-          token is at the core of a vibrant and fun-loving meme community with a
-          noble mission: to shine a light on animal welfare. So, whether you're
-          here to share a laugh, spread love for our furry friends, or simply
-          explore the world of Web3, $Chuck welcomes you with open paws. Join us
-          in building not just a community, but a movement dedicated to making a
-          difference, one meme at a time.
-        </TextWrapper>
-      </div>
-    );
+  return (
+    <div className="text-sm px-4 pb-20 lg:text-6xl  lg:pb-60 lg:pt-40 text-center bg-[#5BA7FF] font-upheavtt flex flex-col justify-center gap-12">
+      <TextWrapper>Why $Chuck token?</TextWrapper>
+      <TextWrapper>
+        $Chuck was born out of a deep admiration for the iconic Chuck Norris
+        memes, but it stands for so much more than just internet meme. This
+        token is at the core of a vibrant and fun-loving meme community with a
+        noble mission: to shine a light on animal welfare. So, whether you're
+        here to share a laugh, spread love for our furry friends, or simply
+        explore the world of Web3, $Chuck welcomes you with open paws. Join us
+        in building not just a community, but a movement dedicated to making a
+        difference, one meme at a time.
+      </TextWrapper>
+    </div>
+  );
 }

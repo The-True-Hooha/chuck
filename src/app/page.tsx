@@ -6,18 +6,17 @@ import { ImageSection } from "@/components/section";
 import { IMiddle } from "@/components/middle-2";
 import { TextSection } from "@/components/text";
 
-
 export default function Home() {
   return (
     <>
       <Navbar />
       {/* <main className="flex-col flex min-h-screen"> */}
       <HeroSection />
-      <MiddleSection/>
+      <MiddleSection />
       <ImageSection />
       <IMiddle />
-      <TextSection/>
-        <Footer />
+      <TextSection />
+      <Footer />
       {/* </main> */}
     </>
   );

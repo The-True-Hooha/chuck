@@ -14,8 +14,8 @@ export default function Navbar() {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
-    <nav className="fixed left-0 right-0 bg-[#0070F0] top-0 z-50 py-3 backdrop-blur-lg ">
-      <div className="container px-4 mx-auto relative lg:text-sm">
+    <nav className="fixed left-0 right-0 h-[8vh] bg-[#0070F0] pt-5 top-0 z-50 pb-3 backdrop-blur-lg ">
+      <div className="px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <Image
@@ -33,10 +33,10 @@ export default function Navbar() {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
-                <li key={index}>
-                  <a href={item.href}>{item.label}</a>
-                </li>
-              ))}
+              <li key={index}>
+                <a href={item.href}>{item.label}</a>
+              </li>
+            ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="#" className="py-2 px-3 border rounded-md">
@@ -46,7 +46,7 @@ export default function Navbar() {
               How To
             </a>
           </div>
-          <div className="lg:hidden md:flex flex-col justify-end">
+          <div className="lg:hidden  flex flex-col justify-end">
             <button onClick={toggleNavbar}>
               {mobileDrawerOpen ? <X /> : <Menu />}
             </button>
@@ -76,10 +76,10 @@ export default function Navbar() {
                 DAO
               </a>
               <div className="flex justify-center mx-auto space-x-4">
-                <RiTwitterXLine className="text-[40px]"/>
-                <FaMedium className="text-[40px]"/>
-                <FaTelegram className="text-[40px]"/>
-                <FaDiscord className="text-[40px]"/>
+                <RiTwitterXLine className="text-[40px]" />
+                <FaMedium className="text-[40px]" />
+                <FaTelegram className="text-[40px]" />
+                <FaDiscord className="text-[40px]" />
               </div>
             </div>
           </div>
