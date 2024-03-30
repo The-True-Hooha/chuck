@@ -6,6 +6,7 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { FaMedium } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Navbar() {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -39,10 +40,10 @@ export default function Navbar() {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
+            <a href="/roadmap" className="py-2 px-3 border rounded-md">
               Roadmap
             </a>
-            <a href="#" className="py-2 px-3 border rounded-md">
+            <a href="/how-to" className="py-2 px-3 border rounded-md">
               How To
             </a>
           </div>
@@ -63,23 +64,49 @@ export default function Navbar() {
             </ul> */}
 
             <div className="flex font-pixelifySans flex-col items-center space-y-6">
-              <a href="#" className="py-2 px-3 rounded-md">
+              <Link
+                className="py-2 px-3 rounded-md hover:text-blue-700"
+                href="/roadmap"
+              >
                 Roadmap
-              </a>
-              <a href="#" className="py-2 px-3 rounded-md">
+              </Link>
+              <Link
+                className="py-2 px-3 rounded-md hover:text-blue-700"
+                href="/tokenomics"
+              >
+                Tokenomics
+              </Link>
+              <Link
+                className="py-2 px-3 rounded-md hover:text-blue-700"
+                href="/how-to"
+              >
                 HowTo
-              </a>
-              <a href="#" className="py-2 px-3 rounded-md">
+              </Link>
+              <Link
+                className="py-2 px-3 rounded-md hover:text-blue-700"
+                href="/whitepaper"
+              >
                 Whitepaper
-              </a>
-              <a href="#" className="py-2 px-3 rounded-md">
-                DAO
-              </a>
+              </Link>
+              <Link
+                className="py-2 px-3 hover:text-blue-700 rounded-md"
+                href="https://www.dextools.io/app/en/base/pair-explorer/0xa878a7944062c3984b214a6f7bc3970f4a6a5257"
+              >
+                Chart
+              </Link>
+              <Link
+                className="py-2 px-3 hover:text-blue-700 rounded-md"
+                href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
+              >
+                Buy Token
+              </Link>
               <div className="flex justify-center mx-auto space-x-4">
-                <RiTwitterXLine className="text-[40px]" />
-                <FaMedium className="text-[40px]" />
-                <FaTelegram className="text-[40px]" />
-                <FaDiscord className="text-[40px]" />
+                <Link href="https://x.com/CHUCK_on_Base?t=PgRn6I4ZDjpt9OmHf_Sa4A&s=09">
+                  <RiTwitterXLine className="text-[40px] hover:text-blue-700" />
+                </Link>
+                <Link href="https://t.me/Chuck_on_Base">
+                  <FaTelegram className="text-[40px] hover:text-blue-700" />
+                </Link>
               </div>
             </div>
           </div>

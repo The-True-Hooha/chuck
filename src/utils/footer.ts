@@ -3,16 +3,16 @@ const footer = [
     title: "Resources",
     links: [
       {
-        name: "Get Started",
-        link: "/started",
+        name: "HowTo",
+        link: "/how-to",
       },
       {
         name: "Whitepaper",
         link: "/whitepaper",
       },
       {
-        name: "Community Forums",
-        link: "/community",
+        name: "Telegram",
+        link: "https://t.me/Chuck_on_Base",
       },
       {
         name: "Roadmap",
@@ -42,23 +42,23 @@ const footer = [
     ],
   },
   {
-    title: "Useful Links",
+    title: "Links",
     links: [
       {
-        name: "Store",
-        link: "/nfts",
+        name: "Tokenomics",
+        link: "/",
       },
       {
-        name: "Events",
-        link: "/sell",
+        name: "Chart",
+        link: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a",
       },
       {
-        name: "Meetups",
-        link: "/create",
+        name: "Twitter",
+        link: "https://x.com/CHUCK_on_Base?t=PgRn6I4ZDjpt9OmHf_Sa4A&s=09",
       },
       {
         name: "Explore",
-        link: "/explore",
+        link: "/",
       },
     ],
   },

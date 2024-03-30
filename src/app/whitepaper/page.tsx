@@ -10,23 +10,21 @@ export default function WhitePaper() {
       <div className="bg-[#5BA7FF] pb-[40px] min-h-screen">
         <Navbar />
         <div className="lg:pt-[140px] pt-[100px] text-[40px] font-upheavtt text-center flex justify-center">
-          <TextWrapper>What is CHUCK?</TextWrapper>
+          <div>What is CHUCK?</div>
         </div>
-        <div className="ml-[20px] lg:text-[40px] leading-normal font-pixelifySans text-justify w-[90%] lg:ml-[80px] flex justify-center">
-          <TextWrapper>
-            CHUCK is a project that continues the time-honored tradition of
-            dog-themed meme coins in the crypto space. It honors the legendary
-            Chuck Norris and his beloved dog, Digby. Chuck Norris, is one of the
-            most meme-worthy, well-known figures in pop culture, the star of
-            thirty two feature films as well as the hit TV series, Walker Texas
-            Ranger. Mr. Norris is an avid lover of dogs and thus, it is fitting
-            that he be honored and represented in the crypto space through
-            $CHUCK, the ultimate embodiment of toughness.
-          </TextWrapper>
+        <div className="ml-[20px] text-[#0070F0] lg:text-[40px] leading-normal font-pixelifySans text-justify w-[90%] lg:ml-[80px] flex justify-center">
+          CHUCK is a project that continues the time-honored tradition of
+          dog-themed meme coins in the crypto space. It honors the legendary
+          Chuck Norris and his beloved dog, Digby. Chuck Norris, is one of the
+          most meme-worthy, well-known figures in pop culture, the star of
+          thirty two feature films as well as the hit TV series, Walker Texas
+          Ranger. Mr. Norris is an avid lover of dogs and thus, it is fitting
+          that he be honored and represented in the crypto space through $CHUCK,
+          the ultimate embodiment of toughness.
         </div>
 
         <div className="lg:pt-[90px] mt-[60px] text-[50px] font-upheavtt text-center flex justify-center">
-          <TextWrapper>The Vision</TextWrapper>
+          <div>The Vision</div>
         </div>
         <div className="ml-[20px] text-[#0070F0] lg:text-[40px] leading-normal lg:ml-[80px] font-pixelifySans text-justify w-[90%] flex justify-center">
           CHUCK is a community-based project that aims to bring attention to the
@@ -44,7 +42,7 @@ export default function WhitePaper() {
         </div>
 
         <div className="lg:pt-[90px] mt-[60px] text-[50px] font-upheavtt text-center flex justify-center">
-          <TextWrapper>The Utility</TextWrapper>
+          <div>The Utility</div>
         </div>
         <div className="ml-[20px] text-[#0070F0] lg:text-[40px] lg:ml-[80px] leading-normal font-pixelifySans text-justify w-[90%] flex justify-center">
           CHUCK is designed to be a fun, community-building token. Ownership of
