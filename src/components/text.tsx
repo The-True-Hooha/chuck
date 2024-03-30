@@ -7,7 +7,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-function TextWrapper({ children }: Props) {
+export function TextWrapper({ children }: Props) {
   const text = React.useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
