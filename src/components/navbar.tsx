@@ -32,10 +32,10 @@ export default function Navbar() {
               $Chuck
             </span> */}
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-12">
+          <ul className="hidden lg:flex font-pixelifySans ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href}>{item.label}</a>
+                <Link href={item.href}>{item.label}</Link>                
               </li>
             ))}
           </ul>
@@ -117,8 +117,8 @@ export default function Navbar() {
 }
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Whitepaper", href: "/whitepaper" },
+  { label: "Buy Token", href: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a" },
+  { label: "Chart", href: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a" },
+  { label: "Roadmap", href: "/roadmap" },
 ];
