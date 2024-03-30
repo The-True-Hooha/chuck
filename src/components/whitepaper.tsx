@@ -6,9 +6,9 @@ import { TextWrapper } from "@/components/text";
 
 export default function WhitePaper() {
   return (
-    <div>
+    <div id="whitepaper">
       <div className="bg-[#5BA7FF] pb-[40px] min-h-screen">
-        <Navbar />
+        
         <div className="lg:pt-[140px] pt-[100px] text-[40px] font-upheavtt text-center flex justify-center">
           <div>What is CHUCK?</div>
         </div>
@@ -60,7 +60,7 @@ export default function WhitePaper() {
           sets out to actually benefit man&apos;s best friend.
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

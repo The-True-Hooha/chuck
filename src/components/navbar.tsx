@@ -63,28 +63,28 @@ export default function Navbar() {
                 ))}
             </ul> */}
 
-            <div className="flex font-pixelifySans flex-col items-center space-y-6">
+            <div onClick={toggleNavbar} className="flex font-pixelifySans flex-col items-center space-y-6">
               <Link
                 className="py-2 px-3 rounded-md hover:text-blue-700"
-                href="/roadmap"
+                href="#roadmap"
               >
                 Roadmap
               </Link>
               <Link
                 className="py-2 px-3 rounded-md hover:text-blue-700"
-                href="/tokenomics"
+                href="#tokenomics"
               >
                 Tokenomics
               </Link>
               <Link
                 className="py-2 px-3 rounded-md hover:text-blue-700"
-                href="/how-to"
+                href="#how-to"
               >
                 HowTo
               </Link>
               <Link
                 className="py-2 px-3 rounded-md hover:text-blue-700"
-                href="/whitepaper"
+                href="#whitepaper"
               >
                 Whitepaper
               </Link>
@@ -117,8 +117,8 @@ export default function Navbar() {
 }
 
 export const navItems = [
-  { label: "Whitepaper", href: "/whitepaper" },
+  { label: "Whitepaper", href: "#whitepaper" },
   { label: "Buy Token", href: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a" },
   { label: "Chart", href: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a" },
-  { label: "Roadmap", href: "/roadmap" },
+  { label: "Roadmap", href: "#roadmap" },
 ];

@@ -26,17 +26,18 @@ function Footer() {
               $Chuck
             </h2>
           </div>
-          <div className="input relative">
+        </div>
+        {/* <div className="input relative">
             <input
               type="text"
               className="w-full bg-white text-black py-2 px-4 rounded-md placeholder-gray-400"
               placeholder="Subscribe here..."
             />
-          </div>
-          <p className="text-white font-pixelifySans text-center">
+          </div> */}
+        {/* <p className="text-white font-pixelifySans text-center">
             $Chuck: Unleashing Joy and Advocacy in the Web3 World
-          </p>
-          {/* <div className=" flex gap-4 text-white justify-center">
+          </p> */}
+        {/* <div className=" flex gap-4 text-white justify-center">
             <Link href="https://x.com/CHUCK_on_Base?t=PgRn6I4ZDjpt9OmHf_Sa4A&s=09">
               <RiTwitterXLine className="text-[40px]" />
             </Link>
@@ -44,8 +45,8 @@ function Footer() {
               <FaTelegram className="text-[40px]" />
             </Link>
           </div> */}
-        </div>
-        <div className="w-full font-pixelifySans md:w-1/2 grid grid-cols-3 gap-8 mt">
+
+        {/* <div className="w-full font-pixelifySans md:w-1/2 grid grid-cols-3 gap-8 mt">
           {footerData.map((item, index) => (
             <div key={index}>
               <h4 className="text-white text-lg font-semibold mb-2">
@@ -63,8 +64,9 @@ function Footer() {
             </div>
           ))}
         </div>
+        */}
       </div>
-      <p className="text-white text-center font-pixelifySans mt-12">
+      <p className="text-white text-center font-pixelifySans mt-4">
         <a href="#" className="mr-4">
           &copy; {currentYear} All rights reserved, not affiliated with Chuck
           Norris.

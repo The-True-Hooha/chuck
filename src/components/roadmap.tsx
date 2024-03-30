@@ -14,10 +14,10 @@ import Footer from "@/components/footer";
 
 export default function Roadmap() {
   return (
-    <div>
+    <div id="roadmap">
       <div className="bg-[#5BA7FF] min-h-screen pb-20">
-        <Navbar />
-        <div className=" mt-[60px]">
+        {/* <Navbar /> */}
+        <div className=" ">
           <h3 className="mb-6 ml-3 text-2xl pt-[35px] font-upheavtt flex justify-center text-[#0070F0] font-bold">
             Chuck Roadmap
           </h3>
@@ -270,7 +270,7 @@ export default function Roadmap() {
           </ol>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
