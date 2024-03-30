@@ -45,7 +45,7 @@ export function TextSection() {
         $Chuck was born out of a deep admiration for the iconic Chuck Norris
         memes, but it stands for so much more than just internet meme. This
         token is at the core of a vibrant and fun-loving meme community with a
-        noble mission: to shine a light on animal welfare. So, whether you're
+        noble mission: to shine a light on animal welfare. So, whether you are
         here to share a laugh, spread love for our furry friends, or simply
         explore the world of Web3, $Chuck welcomes you with open paws. Join us
         in building not just a community, but a movement dedicated to making a
