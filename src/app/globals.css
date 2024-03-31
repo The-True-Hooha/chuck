@@ -56,3 +56,22 @@ body {
   font-family: "pixelifySans";
   src: url("/assets/font/PixelifySans.ttf");
 }
+
+/* Circles */
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.circle-1 {
+  background: conic-gradient(from 0deg, #ffee00 70%, #54b4d3 30%);
+}
+.circle-2 {
+  background: conic-gradient(from 90deg, #54b4d3 85%, #ffee00 15%);
+}
+.circle-3 {
+  background: conic-gradient(from 90deg, #54b4d3 92.5%, #ffee00 7.5%);
+}
+.circle-4 {
+  background: conic-gradient(from 90deg, #54b4d3 92.5%, #ffee00 7.5%);
+}

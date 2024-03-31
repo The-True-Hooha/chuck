@@ -8,6 +8,7 @@ import { TextSection } from "@/components/text";
 import Roadmap from "@/components/roadmap";
 import WhitePaper from "@/components/whitepaper";
 import HowTo from "@/components/how-to";
+import Token from "@/components/token";
 
 export default function Home() {
   return (
@@ -20,8 +21,9 @@ export default function Home() {
       <IMiddle />
       <TextSection />
       <Roadmap />
+      <Token />
       <WhitePaper />
-      {/* <HowTo/> */}
+      <HowTo/>
       <Footer />
       {/* </main> */}
     </>
