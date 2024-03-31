@@ -150,8 +150,8 @@ export default function HowTo() {
                   className="h-full w-full object-contain"
                 />
               </div> */}
-              <h2 className="  font-upheavtt text-2xl mt-4">-Buy $TOSHi</h2>
-              <p>Different ways to safely buy the TOSHI token.</p>
+              <h2 className="  font-upheavtt text-2xl mt-4">-Buy Chuck</h2>
+              <p>Different ways to safely buy the Chuck token.</p>
               {/* <Link href="https://youtu.be/WoFM7czuxOY" target="_blank">
                 <button className="border rounded-3xl px-4 py-2 flex items-center gap-2 font-bold mt-4">
                   {" "}
@@ -182,6 +182,16 @@ export default function HowTo() {
       <p>You have added it.</p>
       <div className="lg:pt-[140px] pt-[100px] text-[40px] font-upheavtt text-center flex justify-center">
         <TextWrapper>How-to? (Step 2)</TextWrapper> */}
+      </div>
+      <div className="bg-[#5BA7FF] w-full font-pixelifySans">
+        {/* <p className="flex justify-center">
+          The Bermuda Triangle used to be the Bermuda Square, until Chuck Norris
+          Roundhouse one of the corners off
+        </p> */}
+        <blockquote className="text-md italic border-l-4 border-blue-800 pl-4 ml-4 pb-4 dark:border-gray-500 dark:bg-gray-800">
+          The Bermuda Triangle used to be the Bermuda Square, until Chuck Norris
+          Roundhouse one of the corners off
+        </blockquote>
       </div>
     </div>
   );
