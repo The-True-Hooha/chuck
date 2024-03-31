@@ -188,7 +188,6 @@ export default function Roadmap() {
                     </a>
                   </div>
                   <ul className="mb-6 text-neutral-700 font-pixelifySans ml-6 dark:text-neutral-200">
-                    <li className="list-disc"> Exploitation of CEX Listing</li>
                     <li className="list-disc"> Website Upgrade</li>
                     <li className="list-disc"> NFT Mint and Launch</li>
                     <li className="list-disc"> Community Game Creation</li>
