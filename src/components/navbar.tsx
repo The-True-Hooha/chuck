@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <Image
-              src={"/assets/logo/logo-v2.png"}
+              src={"/assets/logo/logo_circle.png"}
               alt="logo"
               width={50}
               height={50}

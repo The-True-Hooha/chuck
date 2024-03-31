@@ -6,7 +6,7 @@ import { ImageSection } from "@/components/section";
 import { IMiddle } from "@/components/middle-2";
 import { TextSection } from "@/components/text";
 import Roadmap from "@/components/roadmap";
-import WhitePaper from "@/components/whitepaper";
+import WhitePaper from "@/app/whitepaper/page";
 import HowTo from "@/components/how-to";
 import Token from "@/components/token";
 
@@ -22,7 +22,6 @@ export default function Home() {
       <TextSection />
       <Roadmap />
       <Token />
-      <WhitePaper />
       <HowTo/>
       <Footer />
       {/* </main> */}

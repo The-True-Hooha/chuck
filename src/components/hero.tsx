@@ -13,14 +13,12 @@ export function HeroSection() {
     },
   ];
   return (
-    <div className="bg-[#5BA7FF]">
-      
-    <WavyBackground
-      backgroundFill="#5BA7FF"
-      className="max-w-4xl mx-auto flex flex-col gap-20 px-2"
-    >
-    </WavyBackground>
-    
+    <div className="bg-[#5BA7FF] pt-[130px]">
+      <WavyBackground
+        backgroundFill="#5BA7FF"
+        className="max-w-4xl mx-auto flex flex-col gap-20 px-2"
+      ></WavyBackground>
+
       <div className="w-full mt-[-770px] absolute lg:mt-[-800px] mx-auto">
         <p className="font-upheavtt text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
           $Chuck: Unleashing Joy and Advocacy in the Web3 World
@@ -31,8 +29,8 @@ export function HeroSection() {
             words={words}
           />
         </div>
-      </div> 
-      <CardContainer className="inter-var mt-[-800px] mr-[25px] lg:mr-[20px] ">
+      </div>
+      <CardContainer className="inter-var mt-[-900px] mr-[5px] lg:mr-[20px] ">
         <CardBody
           className="absolute group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
           dark:border-white/[0.2] w-[20rem] lg:w-[60rem] h-auto rounded-xl
@@ -61,7 +59,6 @@ export function HeroSection() {
           </CardItem>
         </CardBody>
       </CardContainer>
-      
     </div>
   );
 }

@@ -99,7 +99,7 @@ export default function HowTo() {
             </div>
 
             <div className="mb-10">
-              <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
+              {/* <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
                 <Image
                   src="/assets/images/logo-main.jpg"
                   alt="4"
@@ -107,20 +107,20 @@ export default function HowTo() {
                   width={400}
                   className="h-full w-full object-contain"
                 />
-              </div>
+              </div> */}
               <h2 className="  font-upheavtt text-2xl mt-4">
                 - Add Base Chain
               </h2>
               <p>Learn how to add the Base network to your crypto wallet.</p>
-              <Link href="https://youtu.be/XbHztxWbOyk" target="_blank">
-                <button className="border rounded-3xl px-4 py-2 flex items-center gap-2 font-bold mt-4">
+              {/* <Link href="https://youtu.be/XbHztxWbOyk" target="_blank">
+                <button className="border rounded-3xl px-4 py-2 hover:bg-blue-700 flex items-center gap-2 font-bold mt-4">
                   {" "}
                   <AiOutlineYoutube size={24} /> <span>Watch</span>
                 </button>
-              </Link>
+              </Link> */}
             </div>
             <div className="mb-10">
-              <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
+              {/* <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
                 <Image
                   src="/assets/images/logo-main.jpg"
                   alt="4"
@@ -128,20 +128,20 @@ export default function HowTo() {
                   width={400}
                   className="h-full w-full object-contain"
                 />
-              </div>
+              </div> */}
               <h2 className="  font-upheavtt text-2xl mt-4">
                 - Bridge to Base
               </h2>
               <p>Learn how to bridge ETH from mainnet to Base chain.</p>
-              <Link href="https://youtu.be/uXTkcGiDS60" target="_blank">
+              {/* <Link href="https://youtu.be/uXTkcGiDS60" target="_blank">
                 <button className="border rounded-3xl px-4 py-2 flex items-center gap-2 font-bold mt-4">
                   {" "}
                   <AiOutlineYoutube size={24} /> <span>Watch</span>
                 </button>
-              </Link>
+              </Link> */}
             </div>
             <div>
-              <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
+              {/* <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
                 <Image
                   src="/assets/images/logo-main.jpg"
                   alt="4"
@@ -149,15 +149,15 @@ export default function HowTo() {
                   width={400}
                   className="h-full w-full object-contain"
                 />
-              </div>
+              </div> */}
               <h2 className="  font-upheavtt text-2xl mt-4">-Buy $TOSHi</h2>
               <p>Different ways to safely buy the TOSHI token.</p>
-              <Link href="https://youtu.be/WoFM7czuxOY" target="_blank">
+              {/* <Link href="https://youtu.be/WoFM7czuxOY" target="_blank">
                 <button className="border rounded-3xl px-4 py-2 flex items-center gap-2 font-bold mt-4">
                   {" "}
                   <AiOutlineYoutube size={24} /> <span>Watch</span>
                 </button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

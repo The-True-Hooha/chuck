@@ -66,13 +66,14 @@ function Footer() {
         </div>
         */}
       </div>
-      <p className="text-white text-center font-pixelifySans mt-4">
-        <a href="#" className="mr-4">
-          &copy; {currentYear} All rights reserved, not affiliated with Chuck
-          Norris.
-        </a>
-        <a href="#">Privacy policy</a> | <a href="#">Terms of service</a>
-      </p>
+      <div className="text-white w-full font-pixelifySans mt-4">
+        <p className="flex justify-center ">
+          <span className="mr-2">&copy; {currentYear}</span> All rights
+          reserved.
+        </p>
+        <p className="ml-8">Not affiliated with Chuck Norris.</p>
+        <p className="ml-[90px] mt-[10px]">Powered by Base</p>
+      </div>
     </footer>
   );
 }
