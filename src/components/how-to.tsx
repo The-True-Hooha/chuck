@@ -34,7 +34,7 @@ export default function HowTo() {
               <br />
               Connect to your MM wallet and go to your Networks. Click Add
               Network, Base Mainnet should be in the list of popular networks so
-              you don't need to add it manually. Just press Add and Approve
+              you don&apos;t need to add it manually. Just press Add and Approve
               popup, now just switch to the Base network.
             </p>
 
