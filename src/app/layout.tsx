@@ -7,8 +7,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "chuck token on base",
   description: " chuck token on base app",
- icons: {
-    icon: ["/favicon.ico?v=4"],
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/favicon.ico",
+        href: "/favicon.ico",
+      },
+    ],
   },
 };
 
