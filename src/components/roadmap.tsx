@@ -18,7 +18,7 @@ export default function Roadmap() {
       <div className="bg-[#5BA7FF] min-h-screen pb-20">
         {/* <Navbar /> */}
         <div className=" ">
-          <h3 className="mb-6 ml-3 text-2xl pt-[35px] font-upheavtt flex justify-center text-[#0070F0] font-bold">
+          <h3 className="mb-6 ml-3 text-2xl pt-[35px] font-upheavtt flex justify-center text-white leading-3">
             Chuck Roadmap
           </h3>
           <ol className="border-l-2 ml-[20px] border-info-100 ">

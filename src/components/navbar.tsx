@@ -7,6 +7,7 @@ import { FaMedium } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
+import { RiHome2Line } from "react-icons/ri";
 
 export default function Navbar() {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -35,7 +36,7 @@ export default function Navbar() {
           <ul className="hidden lg:flex font-pixelifySans ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <Link href={item.href}>{item.label}</Link>                
+                <Link href={item.href}>{item.label}</Link>
               </li>
             ))}
           </ul>
@@ -63,7 +64,10 @@ export default function Navbar() {
                 ))}
             </ul> */}
 
-            <div onClick={toggleNavbar} className="flex font-pixelifySans flex-col items-center space-y-6">
+            <div
+              onClick={toggleNavbar}
+              className="flex font-pixelifySans flex-col items-center space-y-6"
+            >
               <Link
                 className="py-2 px-3 rounded-md hover:text-blue-700"
                 href="#roadmap"
@@ -106,6 +110,12 @@ export default function Navbar() {
                 </Link>
                 <Link href="https://t.me/Chuck_on_Base">
                   <FaTelegram className="text-[40px] hover:text-blue-700" />
+                </Link>
+                <Link
+                  href={"/"}
+                  className=" "
+                >
+                  <RiHome2Line className="text-[40px] hover:text-blue-700" />
                 </Link>
               </div>
             </div>

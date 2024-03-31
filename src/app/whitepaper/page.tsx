@@ -2,14 +2,17 @@
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
-import { TextWrapper } from "@/components/text";
+import Link from "next/link";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 export default function WhitePaper() {
   return (
     <div>
       <Navbar />
-      <div className="bg-[#5BA7FF] pb-[40px] min-h-screen">
-        <div className="lg:pt-[140px] pt-[100px] text-[40px] font-upheavtt text-center flex justify-center">
+
+      <div className="bg-[#5BA7FF] pt-[120px] pb-[40px] min-h-screen">
+       
+        <div className="lg:pt-[140px] text-[40px] font-upheavtt text-center flex justify-center">
           <div>What is CHUCK?</div>
         </div>
         <div className="ml-[20px] text-[#0070F0] lg:text-[40px] leading-normal font-pixelifySans text-justify w-[90%] lg:ml-[80px] flex justify-center">
@@ -64,7 +67,6 @@ export default function WhitePaper() {
     </div>
   );
 }
-
 
 /*
 <<The Bermuda Triangle used to be the Bermuda Square, until Chuck Norris

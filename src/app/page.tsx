@@ -10,6 +10,7 @@ import WhitePaper from "@/app/whitepaper/page";
 import HowTo from "@/components/how-to";
 import Token from "@/components/token";
 
+
 export default function Home() {
   return (
     <>

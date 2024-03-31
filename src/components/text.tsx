@@ -40,7 +40,7 @@ export function TextWrapper({ children }: Props) {
 export function TextSection() {
   return (
     <div className="text-sm px-4 pb-20 lg:text-6xl  lg:pb-60 lg:pt-40 text-center bg-[#5BA7FF] font-upheavtt flex flex-col justify-center gap-12">
-      <div className="text-white text-[35px]">Why $Chuck token?</div>
+      <div className="text-white text-[35px]">Why Chuck token?</div>
       <TextWrapper>
         $Chuck was born out of a deep admiration for the iconic Chuck Norris
         memes, but it stands for so much more than just internet meme. This

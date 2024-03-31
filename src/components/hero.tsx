@@ -8,7 +8,7 @@ import { CardItem, CardBody, CardContainer } from "@/lib/3d-card";
 export function HeroSection() {
   const words = [
     {
-      text: "Welcome to the exciting world of $Chuck",
+      text: "Welcome to the exciting world of Chuck",
       className: "text-blue-700 dark:text-blue-500",
     },
   ];
@@ -23,9 +23,9 @@ export function HeroSection() {
         <p className="font-upheavtt text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
           Chuck: Unleashing Joy and Advocacy in the Web3 World
         </p>
-        <div className="text-center mt-[30px] mx-auto text-[17px] w-[30px] flex items-center justify-center">
+        <div className="text-center mt-[30px] mx-auto flex items-center justify-center">
           <TypewriterEffectSmooth
-            className="font-pixelifySans lg:text-[80px] "
+            className="font-pixelifySans lg:text-[80px]  "
             words={words}
           />
         </div>

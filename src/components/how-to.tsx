@@ -6,7 +6,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 
 export default function HowTo() {
   return (
-    <div>
+    <div id="tokenomics">
       <div className="bg-[#5BA7FF] pb-[40px] min-h-screen px-4">
         <div className="lg:pt-[140px] pt-[100px] text-lg font-pixelifySans  ">
           <h1 className="text-center  font-upheavtt text-2xl ">How It Works</h1>

@@ -16,14 +16,14 @@ function Footer() {
         <div className="w-full md:w-1/2 flex flex-col gap-6 md:gap-10">
           <div className="flex items-center gap-4">
             <Image
-              src={"/assets/logo/logo-v2.png"}
+              src={"/assets/logo/logo_circle.png"}
               alt="logo"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               loading="lazy"
             />
-            <h2 className="text-3xl ml-[-30px] text-white font-bold font-upheavtt">
-              $Chuck
+            <h2 className="text-3xl ml-[50px] text-white font-bold font-upheavtt">
+              Chuck
             </h2>
           </div>
         </div>
