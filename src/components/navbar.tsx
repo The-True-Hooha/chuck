@@ -84,7 +84,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className="py-2 px-3 rounded-md hover:text-blue-700"
-                href="#whitepaper"
+                href="/whitepaper"
               >
                 Whitepaper
               </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
 }
 
 export const navItems = [
-  { label: "Whitepaper", href: "#whitepaper" },
+  { label: "Whitepaper", href: "/whitepaper" },
   { label: "Buy Token", href: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a" },
   { label: "Chart", href: "https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a" },
   { label: "Roadmap", href: "#roadmap" },

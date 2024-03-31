@@ -21,7 +21,7 @@ export function HeroSection() {
 
       <div className="w-full mt-[-770px] absolute lg:mt-[-800px] mx-auto">
         <p className="font-upheavtt text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center">
-          $Chuck: Unleashing Joy and Advocacy in the Web3 World
+          Chuck: Unleashing Joy and Advocacy in the Web3 World
         </p>
         <div className="text-center mt-[30px] mx-auto text-[17px] w-[30px] flex items-center justify-center">
           <TypewriterEffectSmooth
